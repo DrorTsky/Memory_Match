@@ -5,19 +5,6 @@ from Model import Model
 from View import View
 from Functions import *
 
-HS_FILE = "high_scores.txt"
-AMOUNT_OF_CARDS = 30
-SCREEN_INCREASE = 75
-DELTA = 106
-DISPLAY_SIZE = (750, 905 + SCREEN_INCREASE)
-GAME_TITLE = "Memory Match"
-DESIRED_FPS = 60
-FINISHED = 1
-NEW_GAME = 0
-CARDS_WIDTH = 125
-CARDS_HEIGHT = 181
-FONT_NAME = "comicsans"
-
 
 class Controller(object):
 
